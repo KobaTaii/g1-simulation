@@ -1,0 +1,14 @@
+[project]
+name = "g1-motion-sim"
+version = "0.1.0"
+description = "GR00T-WholeBodyControl G1 Motion Simulation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mujoco>=3.1.0",
+    "pyzmq>=25.0.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.10.0",
+    "requests>=2.31.0",
+]

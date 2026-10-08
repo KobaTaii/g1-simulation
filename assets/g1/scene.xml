@@ -1,0 +1,14 @@
+<mujoco model="g1_scene">
+  <include file="g1.xml"/>
+
+  <statistic center="0 0 0.8" extent="2.0"/>
+
+  <visual>
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0"/>
+  </visual>
+
+  <worldbody>
+    <light pos="0 0 3.5" dir="0 0 -1" directional="true"/>
+    <geom name="floor" type="plane" size="10 10 0.1" rgba="0.8 0.8 0.8 1"/>
+  </worldbody>
+</mujoco>
